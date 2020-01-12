@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Controllers\CameraScollController.cs">
+    <Files>
+      <File FileName="..\Unity 4.x\MetProj\Assets\Scripts\CameraBehaviour.cs" Line="1" Column="1" />
+      <File FileName="..\Unity 4.x\MetProj\Assets\Scripts\RotateObject.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Miscellaneous\InfoShow.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\RocketBuy\RocketBuy.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\MapBuy\MapBuy.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Controllers\CameraScollController.cs" Line="16" Column="87" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
