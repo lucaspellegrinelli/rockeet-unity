@@ -207,7 +207,7 @@ public class MapBuy : MonoBehaviour {
 
 			tempShowPrice.GetComponent<TextMesh>().fontSize = 25;
 			tempShowPrice.GetComponent<TextMesh>().font = textFont;
-			tempShowPrice.GetComponent<TextMesh>().renderer.material = textFont.material;
+			tempShowPrice.GetComponent<TextMesh>().GetComponent<Renderer>().material = textFont.material;
 			tempShowPrice.GetComponent<TextMesh>().alignment = TextAlignment.Center;
 			tempShowPrice.GetComponent<TextMesh>().anchor = TextAnchor.MiddleLeft;
 			tempShowPrice.GetComponent<TextMesh>().color = Color.black;
@@ -225,7 +225,7 @@ public class MapBuy : MonoBehaviour {
 			userMoney.AddComponent<TextMesh>();
 			userMoney.GetComponent<TextMesh>().fontSize = 20;
 			userMoney.GetComponent<TextMesh>().font = eraserFont;
-			userMoney.GetComponent<TextMesh>().renderer.material = eraserFont.material;
+			userMoney.GetComponent<TextMesh>().GetComponent<Renderer>().material = eraserFont.material;
 			userMoney.GetComponent<TextMesh>().alignment = TextAlignment.Center;
 			userMoney.GetComponent<TextMesh>().anchor = TextAnchor.MiddleLeft;
 			userMoney.GetComponent<TextMesh>().color = Color.white;
@@ -249,7 +249,7 @@ public class MapBuy : MonoBehaviour {
 			showGravityObj.AddComponent<TextMesh>();
 			showGravityObj.GetComponent<TextMesh>().fontSize = 20;
 			showGravityObj.GetComponent<TextMesh>().font = eraserFont;
-			showGravityObj.GetComponent<TextMesh>().renderer.material = eraserFont.material;
+			showGravityObj.GetComponent<TextMesh>().GetComponent<Renderer>().material = eraserFont.material;
 			showGravityObj.GetComponent<TextMesh>().alignment = TextAlignment.Center;
 			showGravityObj.GetComponent<TextMesh>().anchor = TextAnchor.MiddleLeft;
 			showGravityObj.GetComponent<TextMesh>().color = Color.white;

@@ -210,7 +210,7 @@ public class RocketBuy : MonoBehaviour {
 
 			tempShowPrice.GetComponent<TextMesh>().fontSize = 25;
 			tempShowPrice.GetComponent<TextMesh>().font = textFont;
-			tempShowPrice.GetComponent<TextMesh>().renderer.material = textFont.material;
+			tempShowPrice.GetComponent<TextMesh>().GetComponent<Renderer>().material = textFont.material;
 			tempShowPrice.GetComponent<TextMesh>().alignment = TextAlignment.Center;
 			tempShowPrice.GetComponent<TextMesh>().anchor = TextAnchor.MiddleLeft;
 			tempShowPrice.GetComponent<TextMesh>().color = Color.black;
@@ -226,7 +226,7 @@ public class RocketBuy : MonoBehaviour {
 			userMoney.AddComponent<TextMesh>();
 			userMoney.GetComponent<TextMesh>().fontSize = 20;
 			userMoney.GetComponent<TextMesh>().font = eraserFont;
-			userMoney.GetComponent<TextMesh>().renderer.material = eraserFont.material;
+			userMoney.GetComponent<TextMesh>().GetComponent<Renderer>().material = eraserFont.material;
 			userMoney.GetComponent<TextMesh>().alignment = TextAlignment.Center;
 			userMoney.GetComponent<TextMesh>().anchor = TextAnchor.MiddleLeft;
 			userMoney.GetComponent<TextMesh>().color = Color.white;
@@ -241,7 +241,7 @@ public class RocketBuy : MonoBehaviour {
 			tempProjectTo.AddComponent<TextMesh>();
 			tempProjectTo.GetComponent<TextMesh>().fontSize = 20;
 			tempProjectTo.GetComponent<TextMesh>().font = eraserFont;
-			tempProjectTo.GetComponent<TextMesh>().renderer.material = eraserFont.material;
+			tempProjectTo.GetComponent<TextMesh>().GetComponent<Renderer>().material = eraserFont.material;
 			tempProjectTo.GetComponent<TextMesh>().alignment = TextAlignment.Center;
 			tempProjectTo.GetComponent<TextMesh>().anchor = TextAnchor.MiddleLeft;
 			tempProjectTo.GetComponent<TextMesh>().color = Color.white;

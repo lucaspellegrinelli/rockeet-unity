@@ -4,6 +4,6 @@ This is the project of a mobile game created in Unity3D in 2016 as a physics pro
 
 ## Screenshots
 
-I'll add them when I get time to compile the app and take them, but here's the background of the main menu for now
+![](https://i.imgur.com/sp8BIP4.png) ![](https://i.imgur.com/siq7Xvk.png) ![](https://i.imgur.com/w4gAz7X.png)
 
-![](https://i.imgur.com/G510KFB.png)
+![](https://i.imgur.com/pKMTRdr.png) ![](https://i.imgur.com/G7hWpPP.png)

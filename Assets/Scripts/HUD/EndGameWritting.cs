@@ -122,8 +122,8 @@ public class EndGameWritting : MonoBehaviour {
 		GameObject.FindWithTag("Player").GetComponent<Collider2D>().enabled = !on;
 		GameObject.Find("HomeButtonEnd").GetComponent<SpriteRenderer>().enabled = on;
 		GameObject.Find("UnpauseButtonEnd").GetComponent<SpriteRenderer>().enabled = on;
-		GameObject.Find("HomeButtonEnd").collider2D.enabled = on;
-		GameObject.Find("UnpauseButtonEnd").collider2D.enabled = on;
+		GameObject.Find("HomeButtonEnd").GetComponent<Collider2D>().enabled = on;
+		GameObject.Find("UnpauseButtonEnd").GetComponent<Collider2D>().enabled = on;
 //		GameObject.Find("EndButtons").GetComponent<Transform>().position = new Vector2(0, -2);
 	}
 }

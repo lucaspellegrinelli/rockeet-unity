@@ -116,9 +116,9 @@ public class PauseController : MonoBehaviour {
 		GameObject.FindWithTag("GoToMain").GetComponent<SpriteRenderer>().enabled = on;
 		GameObject.FindWithTag("Unpause").GetComponent<SpriteRenderer>().enabled = on;
 		GameObject.FindWithTag("Restart").GetComponent<SpriteRenderer>().enabled = on;
-		GameObject.FindWithTag("GoToMain").collider2D.enabled = on;
-		GameObject.FindWithTag("Unpause").collider2D.enabled = on;
-		GameObject.FindWithTag("Restart").collider2D.enabled = on;
+		GameObject.FindWithTag("GoToMain").GetComponent<Collider2D>().enabled = on;
+		GameObject.FindWithTag("Unpause").GetComponent<Collider2D>().enabled = on;
+		GameObject.FindWithTag("Restart").GetComponent<Collider2D>().enabled = on;
 	}
 
 	public static bool IsPaused(){
